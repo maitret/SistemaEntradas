@@ -93,3 +93,4 @@ CREATE TABLE `Entradas_Tipos` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 INSERT INTO `Entradas_Tipos` VALUES (1, 'entradas', 'Entrada', 'Entradas', 'Entradas', 'Activo', '');
+

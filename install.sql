@@ -92,17 +92,4 @@ CREATE TABLE `Entradas_Tipos` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
-# INSERT INTO `Entradas_Tipos` VALUES (1, 'noticias', 'Noticia', 'Noticias', 'Noticias', 'Activo', '');
-
-CREATE TABLE `config_Estatus` (
-  `id` int(100) NOT NULL AUTO_INCREMENT,
-  `Tipo` varchar(20) NOT NULL,
-  `Tipo_Sub` varchar(50) NOT NULL,
-  `Estatus` varchar(50) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
-
-INSERT INTO `config_Estatus` VALUES (1, 'Productos', 'Estatus', 'Pendiente');
-INSERT INTO `config_Estatus` VALUES (2, 'Productos', 'Estatus', 'Completado');
-INSERT INTO `config_Estatus` VALUES (3, 'Productos', 'Estatus_Entrega', 'Pendiente');
-INSERT INTO `config_Estatus` VALUES (4, 'Productos', 'Estatus_Entrega', 'Completado');
+INSERT INTO `Entradas_Tipos` VALUES (1, 'entradas', 'Entrada', 'Entradas', 'Entradas', 'Activo', '');
